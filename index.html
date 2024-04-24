@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideHeight: 600
+  });
+      });
+    </script>
+
+
 </head>
 <body>
     <header>
@@ -27,6 +47,12 @@
         </nav>
     </header>
     <main>
+        <div class="slider">
+            <img src="https://aromacod.ru/wa-data/public/shop/products/87/73/7387/images/51485/51485.750x0.jpg" alt="">
+            <img src="https://aromacode.ru/wa-data/public/shop/products/87/73/7387/images/51488/51488.0x350.jpg" alt="">
+            <img src="https://aromacode.ru/wa-data/public/shop/products/87/73/7387/images/51487/51487.0x350.jpg" alt="">
+            <img src="https://u.makeup.com.ua/8/8i/8ic6snjol3ab.jpg" alt="">
+          </div>
         <div class="post">
             <img height="250" src="https://resources.cdn-kaspi.kz/img/m/p/h79/hf5/63833280741406.jpg?format=gallery-large" alt="Card image cap">
             <div>

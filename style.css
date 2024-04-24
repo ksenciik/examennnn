@@ -91,7 +91,7 @@ main {
     left: 0px;
     display: none;
     width: 200px;
-    background: aquamarine;
+    background: rgb(228, 201, 224);
 }
 
 #menu1 ul li:hover ul {
