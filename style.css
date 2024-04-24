@@ -11,6 +11,10 @@ footer {
     display: flex;
 }
 
+.slider {
+    height: 600px;
+}
+
 .footer-column {
     flex: 50%;
     margin: 20px;
